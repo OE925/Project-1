@@ -15,11 +15,11 @@ The game implements the rules of checkers and gameplay using bitwise operations.
 - P1 (red) moves UP; P2 (black) moves DOWN. Single jumps supported; captures optional.
 - Bit indices (0-63) are shown to the right of the board.
 - Commands:
-  - move:  <from> <to>    e.g., 12 21
-  - save   <file>        save current game state to file
-  - load   <file>        load game state from file
-  - help                 show this help
-  - quit                 exit the game
+  - move: (from) (to),    e.g., 12 21
+  - save (file),        save current game state to file
+  - load (file),        load game state from file
+  - help,                show this help
+  - quit,                 exit the game
 
 
 ## Build Instructions
